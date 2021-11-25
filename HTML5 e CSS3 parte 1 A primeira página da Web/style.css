@@ -58,6 +58,6 @@ ul {
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
-}  /*comportamento inline e block.
+}  /**comportamento inline e block.
    o comportamento de algumas tags pode ser BLOCK por padrão, porém dessa forma você consegue alterar os valores de sua largura, manualmente.
-   o comportamento inline ocupa apenas o tamanho que seu conteúdo preenche, porém dessa forma você não consegue alterar os valores de sua largura, manualmente.
+   o comportamento inline ocupa apenas o tamanho que seu conteúdo preenche, porém dessa forma você não consegue alterar os valores de sua largura, manualmente./
