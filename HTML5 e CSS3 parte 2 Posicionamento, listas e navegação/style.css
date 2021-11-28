@@ -1,0 +1,64 @@
+body {
+    color: #CCCCCC;
+}
+
+h1 {
+    color: cornflowerblue ;
+    padding-left: 20px;
+}
+
+strong {
+    color: cornflowerblue;
+}
+
+em {
+    color: cornflowerblue;
+}
+
+p {
+    text-align: center;
+}
+
+h2.titulosobre {
+    text-align: center;
+}
+
+p.destaque {
+    font-size: 40px;
+}
+
+.banner {
+    width: 100%;
+}
+
+div.principal {
+    background-color: rgb(51, 51, 51);
+    padding: 30px;
+}
+
+div.beneficios {
+    background: rgb(255, 255, 255);
+    color: #8f8f8f;
+}
+
+li {
+    font-style: italic;
+}
+
+h3.titulobeneficios {
+    text-align: center;
+}
+
+img.imagembeneficios {
+    width: 50%;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}  
+/*comportamento inline e block.
+   o comportamento de algumas tags pode ser BLOCK por padrão, porém dessa forma você consegue alterar os valores de sua largura, manualmente.
+   o comportamento inline ocupa apenas o tamanho que seu conteúdo preenche, porém dessa forma você não consegue alterar os valores de sua largura, manualmente.*/
