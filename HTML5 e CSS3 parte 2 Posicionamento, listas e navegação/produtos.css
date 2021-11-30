@@ -43,8 +43,13 @@ ul.produtos {
 
 p.descricao {
     font-size: 18px;
-    width: 230px;
 } 
+
+.testeimg {
+    display: inline;
+    margin: 0 auto;
+    width: 230px;
+}
 
 ul.produtos h2 {
     font-size: 30px;
@@ -74,6 +79,7 @@ ul.produtos li:active {
 
 ul.produtos li:hover h2 {
     font-size: 32px;
+    transition: 0.3s all;
 }
 
 p.preco {
@@ -92,10 +98,4 @@ p.copyright {
     color: #ffffff;
     font-size: 13px;
     margin: 20px;
-}
-
-.testeimg {
-    display: inline;
-    margin: 0 auto;
-    width: 230px;
 }
