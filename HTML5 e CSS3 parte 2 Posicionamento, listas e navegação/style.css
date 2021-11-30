@@ -2,9 +2,46 @@ body {
     color: #CCCCCC;
 }
 
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0px 4px;
+    right: ;
+}
+
+nav a:hover {
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+div.box {
+    position: relative;
+    width: 940px;
+    margin:15px auto;
+}
+
 h1 {
     color: cornflowerblue ;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 strong {
@@ -41,7 +78,7 @@ div.beneficios {
     color: #8f8f8f;
 }
 
-li {
+ul.itensbeneficios li {
     font-style: italic;
 }
 
@@ -53,7 +90,7 @@ img.imagembeneficios {
     width: 50%;
 }
 
-ul {
+ul.itensbeneficios {
     display: inline-block;
     vertical-align: top;
     width: 20%;

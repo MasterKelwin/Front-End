@@ -29,28 +29,28 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.box {
+div.box {
     position: relative;
     width: 940px;
     margin:15px auto;
 }
 
-.produtos {
+ul.produtos {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
 }
 
-.descricao {
+p.descricao {
     font-size: 18px;
 } 
 
-.produtos h2 {
+ul.produtos h2 {
     font-size: 30px;
     font-weight: bold;
 }
 
-.produtos li {
+ul.produtos li {
     display: inline-block;
     text-align: center;
     vertical-align: top;
@@ -62,19 +62,19 @@ nav a:hover {
     border-radius: 10px 25px 10px 25px;
 }
 
-.produtos li:hover {
+ul.produtos li:hover {
     border-color: blueviolet;
 }
 
-.produtos li:active {
+ul.produtos li:active {
     border-color: blue;
 }
 
-.produtos li:hover h2 {
+ul.produtos li:hover h2 {
     font-size: 32px;
 }
 
-.preco {
+p.preco {
     font-size: 22px;
     font-weight: bold;
     margin: 10px 0 0;
@@ -85,7 +85,7 @@ footer {
     background: url(assets/bg.jpg);
     padding: 40px; 
 }
-.copyright {
+p.copyright {
     color: #ffffff;
     font-size: 13px;
     margin: 20px;
