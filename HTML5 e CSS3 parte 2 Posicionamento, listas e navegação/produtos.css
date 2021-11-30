@@ -20,10 +20,73 @@ nav a {
     font-weight: bold;
     font-size: 25px;
     text-decoration: none;
+    margin: 0px 4px;
+    right: ;
 }
 
-div.box {
+nav a:hover {
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+.box {
     position: relative;
     width: 940px;
-    margin: 0px auto;
+    margin:15px auto;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.descricao {
+    font-size: 18px;
+} 
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;  /**para nosso padding se comportar de acordo com a % do widht*/
+    border: 3px #000000 solid;
+    border-radius: 10px 25px 10px 25px;
+}
+
+.produtos li:hover {
+    border-color: blueviolet;
+}
+
+.produtos li:active {
+    border-color: blue;
+}
+
+.produtos li:hover h2 {
+    font-size: 32px;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer {
+    text-align: center;
+    background: url(assets/bg.jpg);
+    padding: 40px; 
+}
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
 }
