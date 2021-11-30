@@ -43,11 +43,13 @@ ul.produtos {
 
 p.descricao {
     font-size: 18px;
+    width: 230px;
 } 
 
 ul.produtos h2 {
     font-size: 30px;
     font-weight: bold;
+    width: 230px;
 }
 
 ul.produtos li {
@@ -78,6 +80,7 @@ p.preco {
     font-size: 22px;
     font-weight: bold;
     margin: 10px 0 0;
+    width: 230px;
 }
 
 footer {
@@ -89,4 +92,10 @@ p.copyright {
     color: #ffffff;
     font-size: 13px;
     margin: 20px;
+}
+
+.testeimg {
+    display: inline;
+    margin: 0 auto;
+    width: 230px;
 }
