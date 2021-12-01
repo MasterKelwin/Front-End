@@ -94,6 +94,18 @@ select {
     padding: 15px 10px;
     width: 490px;
     font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-submit:hover  {
+    background-color: rgb(92, 23, 156);
+    transition: 0.8s;
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 fieldset {
@@ -112,6 +124,22 @@ fieldset legend {
 
 fieldset select {
     margin: 7px 0 auto;
+    padding-left: 8px;
+}
+
+table {
+    margin: 70px 0 10px 0;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
 
 footer {
