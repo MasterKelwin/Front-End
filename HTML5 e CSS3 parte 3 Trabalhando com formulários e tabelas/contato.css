@@ -53,12 +53,6 @@ form {
     width: 50%;
 }
 
-}
-
-.submit {
-    width: 490px;
-}
-
 form label, form p {
     display: block;
     font-size: 20px;
@@ -67,11 +61,6 @@ form label, form p {
     font-weight: bold;
 }
 
-footer {
-    text-align: center;
-    background: url(assets/bg.jpg);
-    padding: 40px; 
-}
 p.copyright {
     color: #ffffff;
     font-size: 13px;
@@ -104,7 +93,29 @@ select {
     margin-bottom: 30px;
     padding: 15px 10px;
     width: 490px;
+    font-size: 20px;
 }
 
-.horario {
-    padding: 10px 0 0 0;
+fieldset {
+    display: block;
+    margin: 10px;
+    width: 490px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset legend {
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+fieldset select {
+    margin: 7px 0 auto;
+}
+
+footer {
+    text-align: center;
+    background: url(assets/bg.jpg);
+    padding: 40px; 
+}

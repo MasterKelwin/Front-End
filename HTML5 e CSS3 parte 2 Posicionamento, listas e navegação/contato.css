@@ -61,11 +61,6 @@ form label, form p {
     font-weight: bold;
 }
 
-footer {
-    text-align: center;
-    background: url(assets/bg.jpg);
-    padding: 40px; 
-}
 p.copyright {
     color: #ffffff;
     font-size: 13px;
@@ -98,7 +93,27 @@ select {
     margin-bottom: 30px;
     padding: 15px 10px;
     width: 490px;
+    font-size: 20px;
 }
 
-.horario {
-    padding: 10px 0 0 0;
+fieldset {
+    display: block;
+    margin: 10px;
+    width: 490px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset legend {
+    padding-top: 10px;
+}
+
+fieldset select {
+    margin: 7px auto;
+}
+
+footer {
+    text-align: center;
+    background: url(assets/bg.jpg);
+    padding: 40px; 
+}
