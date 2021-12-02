@@ -1,0 +1,101 @@
+body {
+    color: #CCCCCC;
+}
+
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0px 4px;
+    right: ;
+}
+
+nav a:hover {
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+div.box {
+    position: relative;
+    width: 940px;
+    margin:15px auto;
+}
+
+h1 {
+    color: cornflowerblue ;
+    padding-left: 0px;
+}
+
+strong {
+    color: cornflowerblue;
+}
+
+em {
+    color: cornflowerblue;
+}
+
+p {
+    text-align: center;
+}
+
+h2.titulosobre {
+    text-align: center;
+}
+
+p.destaque {
+    font-size: 40px;
+}
+
+.banner {
+    width: 100%;
+}
+
+div.principal {
+    background-color: rgb(51, 51, 51);
+    padding: 30px;
+}
+
+div.beneficios {
+    background: rgb(255, 255, 255);
+    color: #8f8f8f;
+}
+
+ul.itensbeneficios li {
+    font-style: italic;
+}
+
+h3.titulobeneficios {
+    text-align: center;
+}
+
+img.imagembeneficios {
+    width: 50%;
+}
+
+ul.itensbeneficios {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}  
+/*comportamento inline e block.
+   o comportamento de algumas tags pode ser BLOCK por padrão, porém dessa forma você consegue alterar os valores de sua largura, manualmente.
+   o comportamento inline ocupa apenas o tamanho que seu conteúdo preenche, porém dessa forma você não consegue alterar os valores de sua largura, manualmente.*/

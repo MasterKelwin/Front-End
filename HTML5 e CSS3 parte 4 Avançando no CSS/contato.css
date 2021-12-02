@@ -1,0 +1,149 @@
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0px 4px;
+    right: ;
+}
+
+nav a:hover {
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+div.box {
+    position: relative;
+    width: 940px;
+    margin:15px auto;
+}
+
+main {
+    width: 930px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 15px 10px;
+    width: 50%;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+p.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.labelmenor {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.newsletter {
+    padding: 10px 0;
+}
+
+select {
+    display: block;
+    text-align: center;
+    width: 490px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 8px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.input-submit {
+    display: block;
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 15px 10px;
+    width: 490px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-submit:hover  {
+    background-color: rgb(92, 23, 156);
+    transition: 0.8s;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+fieldset {
+    display: block;
+    margin: 10px;
+    width: 490px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset legend {
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+fieldset select {
+    margin: 7px 0 auto;
+    padding-left: 8px;
+}
+
+table {
+    margin: 70px 0 10px 0;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+footer {
+    text-align: center;
+    background: url(assets/bg.jpg);
+    padding: 40px; 
+}
