@@ -1,7 +1,3 @@
-body {
-    color: #CCCCCC;
-}
-
 header {
     background-color: #bbbbbb;
     padding: 20px 0px;
@@ -14,7 +10,7 @@ nav {
 }
 
 nav li {
-    display: inline-block;
+    display: inline;
     margin-left: 15px;
 }
 
@@ -22,10 +18,11 @@ nav a {
     text-transform: uppercase;
     color: black;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     margin: 0px 4px;
     right: ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav a:hover {
@@ -39,63 +36,224 @@ div.box {
     margin:15px auto;
 }
 
-h1 {
-    color: cornflowerblue ;
-    padding-left: 0px;
+ul.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-strong {
-    color: cornflowerblue;
-}
+p.descricao {
+    font-size: 18px;
+} 
 
-em {
-    color: cornflowerblue;
-}
-
-p {
-    text-align: center;
-}
+/*-----------------------css index-----------------------*/
 
 h2.titulosobre {
     text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 5px 0 1em 0;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
 
-p.destaque {
-    font-size: 40px;
+img.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+section.principal p {
+    padding-bottom: 1em;
+}
+
+section.principal strong {
+    font-weight: bold;
+}
+
+section.principal em {
+    font-style: italic;
+}
+
+section.beneficios {
+    clear: left;
+}
+
+section.beneficios h2 {
+    margin-top: 40px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.testeimg {
+    display: inline;
+    margin: 0 auto;
+    width: 230px;
+}
+
+ul.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    width: 230px;
+}
+
+ul.produtos li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;  /**para nosso padding se comportar de acordo com a % do widht*/
+    border: 3px #000000 solid;
+    border-radius: 10px 25px 10px 25px;
+}
+
+ul.produtos li:hover {
+    border-color: blueviolet;
+}
+
+ul.produtos li:active {
+    border-color: blue;
+}
+
+ul.produtos li:hover h2 {
+    font-size: 32px;
+    transition: 0.3s all;
+}
+
+p.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    width: 230px;
+}
+
+div.box {
+    position: relative;
+    width: 940px;
+    margin:15px auto;
+}
+
+main {
+    width: 930px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 15px 10px;
+    width: 50%;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.labelmenor {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.newsletter {
+    padding: 10px 0;
+}
+
+select {
+    display: block;
+    text-align: center;
+    width: 490px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 8px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.input-submit {
+    display: block;
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 15px 10px;
+    width: 490px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-submit:hover  {
+    background-color: rgb(92, 23, 156);
+    transition: 0.8s;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+fieldset {
+    display: block;
+    margin: 10px;
+    width: 490px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset legend {
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+fieldset select {
+    margin: 7px 0 auto;
+    padding-left: 8px;
+}
+
+table {
+    margin: 70px 0 10px 0;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
 
 .banner {
     width: 100%;
 }
 
-div.principal {
-    background-color: rgb(51, 51, 51);
-    padding: 30px;
+p.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
 }
 
-div.beneficios {
-    background: rgb(255, 255, 255);
-    color: #8f8f8f;
-}
-
-ul.itensbeneficios li {
-    font-style: italic;
-}
-
-h3.titulobeneficios {
+footer {
     text-align: center;
+    background: url(assets/bg.jpg);
+    padding: 40px; 
 }
 
-img.imagembeneficios {
-    width: 50%;
-}
-
-ul.itensbeneficios {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}  
 /*comportamento inline e block.
    o comportamento de algumas tags pode ser BLOCK por padrão, porém dessa forma você consegue alterar os valores de sua largura, manualmente.
    o comportamento inline ocupa apenas o tamanho que seu conteúdo preenche, porém dessa forma você não consegue alterar os valores de sua largura, manualmente.*/
