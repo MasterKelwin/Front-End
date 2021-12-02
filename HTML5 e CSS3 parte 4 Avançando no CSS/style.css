@@ -3,6 +3,10 @@ header {
     padding: 20px 0px;
 }
 
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
 nav {
     position: absolute;
     top: 110px;
@@ -22,7 +26,6 @@ nav a {
     text-decoration: none;
     margin: 0px 4px;
     right: ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav a:hover {
@@ -54,7 +57,6 @@ h2.titulosobre {
     font-weight: bold;
     padding: 5px 0 1em 0;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
 
 img.utensilios {
@@ -84,7 +86,6 @@ section.beneficios h2 {
     font-size: 2em;
     text-align: center;
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .testeimg {
@@ -159,7 +160,6 @@ form label, form p {
     display: block;
     font-size: 20px;
     margin: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 
@@ -179,7 +179,6 @@ select {
     font-size: 20px;
     margin: 10px;
     padding: 8px 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
 }
 
@@ -209,12 +208,10 @@ fieldset {
     margin: 10px;
     width: 490px;
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 fieldset legend {
     padding-top: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 
