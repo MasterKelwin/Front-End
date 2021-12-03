@@ -25,7 +25,6 @@ nav a {
     font-size: 20px;
     text-decoration: none;
     margin: 0px 4px;
-    right: ;
 }
 
 nav a:hover {
@@ -65,8 +64,13 @@ img.utensilios {
     margin: 0 1em 1em 0;
 }
 
+section.principal {
+    margin-bottom: 2em;
+}
+
 section.principal p {
     padding-bottom: 1em;
+    text-align: left;
 }
 
 section.principal strong {
@@ -79,6 +83,12 @@ section.principal em {
 
 section.beneficios {
     clear: left;
+    margin: 1em auto;
+}
+
+section.beneficios img {
+    width: 100%;
+    margin: 0 auto;
 }
 
 section.beneficios h2 {
@@ -86,6 +96,31 @@ section.beneficios h2 {
     font-size: 2em;
     text-align: center;
     font-weight: bold;
+}
+
+section.beneficios h2 {
+    margin: 2em 0 1em 0;
+}
+
+section.beneficios li {
+    text-align: center;
+}
+section.beneficios ul {
+    margin: 0 0 1em 0;
+}
+
+section.mapa {
+    margin: 1em auto;
+}
+
+section.mapa p {
+    text-align: center;
+    margin: 0 0 2em 0;
+}
+
+div.video {
+    width: 940px;
+
 }
 
 .testeimg {
