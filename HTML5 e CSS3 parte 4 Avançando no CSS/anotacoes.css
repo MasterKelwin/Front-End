@@ -1,0 +1,20 @@
+main > p {
+    /*afetará todos elementos filhos de main*/
+}
+
+img + p {
+    /*afetará o próximo irmão de IMG*/
+}
+
+img ~ p {
+    /*afetará todos os irmãos P de img*/
+}
+
+.principal p:not(#missão) {
+    /*selecionar todos os parágrafos que não são o ID=missão*/
+}
+
+img {
+    width: calc(33% - 10px); 
+    /*desta forma podemos calcular precisamente alguns valores via CSS*/
+}

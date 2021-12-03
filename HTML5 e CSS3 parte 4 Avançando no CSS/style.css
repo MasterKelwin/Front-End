@@ -1,10 +1,18 @@
 header {
-    background-color: #bbbbbb;
+    background-color: rgb(168, 168, 168);
     padding: 20px 0px;
 }
 
 body {
     font-family: 'Outfit', sans-serif;
+}
+
+h2:before {
+    content: "- ";
+}
+
+h2:after {
+    content: " -";
 }
 
 nav {
@@ -66,6 +74,9 @@ img.utensilios {
 
 section.principal {
     margin-bottom: 2em;
+    width: 930px;
+    margin: 0 auto;
+
 }
 
 section.principal p {
@@ -81,35 +92,8 @@ section.principal em {
     font-style: italic;
 }
 
-section.beneficios {
-    clear: left;
-    margin: 1em auto;
-}
-
-section.beneficios img {
-    width: 100%;
-    margin: 0 auto;
-}
-
-section.beneficios h2 {
-    margin-top: 40px;
-    font-size: 2em;
-    text-align: center;
-    font-weight: bold;
-}
-
-section.beneficios h2 {
-    margin: 2em 0 1em 0;
-}
-
-section.beneficios li {
-    text-align: center;
-}
-section.beneficios ul {
-    margin: 0 0 1em 0;
-}
-
 section.mapa {
+    width: 930px;
     margin: 1em auto;
 }
 
@@ -118,10 +102,53 @@ section.mapa p {
     margin: 0 0 2em 0;
 }
 
-div.video {
-    width: 940px;
-
+section.beneficios {
+    clear: left;
+    width: 640px;
+    margin: 2em auto 4em auto;
 }
+
+h2.titulobeneficios {
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: bold;
+    margin: 2em 0 1em 0;
+}
+
+li.itensbeneficios {
+    text-align: left;
+    line-height: 2.5em;
+    font-size: 1em;
+}
+
+.itensbeneficios:before {
+    content: "★ ";
+}
+
+.itensbeneficios:nth-child(2n) {
+    font-weight: bold;
+}
+
+.listabeneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.imagembeneficios {
+    width: 60%;
+}
+
+div.video {
+    display: inline-block;
+    width: 465px;
+    margin: 0 auto;
+}
+
+div.videos {
+    width: 930px;
+    margin: 0 auto;
+}
+
 
 .testeimg {
     display: inline;
@@ -174,13 +201,14 @@ div.box {
 }
 
 main {
-    width: 930px;
-    margin: 0 auto;
-    padding: 10px 0;
+    background: linear-gradient(rgb(228, 244, 255), rgb(221, 221, 252));
 }
 
 form {
+    width: 930px;
+    margin: 0 auto;
     margin-top: 30px;
+    padding: 2em 0;
 }
 
 .input-padrao {
@@ -274,6 +302,11 @@ td, th {
     width: 100%;
 }
 
+table {
+    width: 930px;
+    margin: 0 auto;
+}
+
 p.copyright {
     color: #ffffff;
     font-size: 13px;
@@ -285,7 +318,3 @@ footer {
     background: url(assets/bg.jpg);
     padding: 40px; 
 }
-
-/*comportamento inline e block.
-   o comportamento de algumas tags pode ser BLOCK por padrão, porém dessa forma você consegue alterar os valores de sua largura, manualmente.
-   o comportamento inline ocupa apenas o tamanho que seu conteúdo preenche, porém dessa forma você não consegue alterar os valores de sua largura, manualmente.*/
