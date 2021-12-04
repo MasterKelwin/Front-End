@@ -3,6 +3,11 @@ header {
     padding: 20px 0px;
 }
 
+main {
+    background: linear-gradient(rgb(226, 226, 226), rgb(189, 189, 189));
+    box-shadow: inset 0px 0px 20px #000000;
+}
+
 body {
     font-family: 'Outfit', sans-serif;
 }
@@ -13,6 +18,10 @@ h2:before {
 
 h2:after {
     content: " -";
+}
+
+h2 {
+    text-shadow: 3px 3px 1px #f1f1f1
 }
 
 nav {
@@ -43,7 +52,7 @@ nav a:hover {
 div.box {
     position: relative;
     width: 940px;
-    margin:15px auto;
+    margin: 15px auto;
 }
 
 ul.produtos {
@@ -73,9 +82,8 @@ img.utensilios {
 }
 
 section.principal {
-    margin-bottom: 2em;
+    margin: 2em auto;
     width: 930px;
-    margin: 0 auto;
 
 }
 
@@ -127,6 +135,10 @@ li.itensbeneficios {
 
 .itensbeneficios:nth-child(2n) {
     font-weight: bold;
+}
+
+.itensbeneficios {
+    text-shadow: 1px 1px 1px #f1f1f1;
 }
 
 .listabeneficios {
@@ -192,16 +204,6 @@ p.preco {
     font-weight: bold;
     margin: 10px 0 0;
     width: 230px;
-}
-
-div.box {
-    position: relative;
-    width: 940px;
-    margin:15px auto;
-}
-
-main {
-    background: linear-gradient(rgb(228, 244, 255), rgb(221, 221, 252));
 }
 
 form {
@@ -284,7 +286,7 @@ fieldset select {
 }
 
 table {
-    margin: 70px 0 10px 0;
+
 }
 
 thead {
@@ -317,4 +319,10 @@ footer {
     text-align: center;
     background: url(assets/bg.jpg);
     padding: 40px; 
+}
+
+@media screen and (max-width: 480px) {
+    div.box, section.mapa, section.principal, section.beneficios, div.videos, div.video {
+        width: auto;
+    }
 }
