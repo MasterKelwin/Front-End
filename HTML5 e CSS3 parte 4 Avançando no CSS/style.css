@@ -69,7 +69,7 @@ p.descricao {
 
 h2.titulosobre {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     padding: 5px 0 1em 0;
     color: black;
@@ -117,7 +117,7 @@ section.beneficios {
 }
 
 h2.titulobeneficios {
-    font-size: 1.7em;
+    font-size: 1.5em;
     text-align: center;
     font-weight: bold;
     margin: 2em 0 1em 0;
@@ -169,7 +169,7 @@ div.videos {
 }
 
 ul.produtos h2 {
-    font-size: 30px;
+    font-size: 1.5em;
     font-weight: bold;
     width: 230px;
 }
@@ -195,7 +195,7 @@ ul.produtos li:active {
 }
 
 ul.produtos li:hover h2 {
-    font-size: 32px;
+    font-size: 1.65em;
     transition: 0.3s all;
 }
 
@@ -209,7 +209,6 @@ p.preco {
 form {
     width: 930px;
     margin: 0 auto;
-    margin-top: 30px;
     padding: 2em 0;
 }
 
@@ -285,8 +284,8 @@ fieldset select {
     padding-left: 8px;
 }
 
-table {
-
+.tabela {
+    padding: 0em 0 1em 0;
 }
 
 thead {
@@ -324,5 +323,13 @@ footer {
 @media screen and (max-width: 480px) {
     div.box, section.mapa, section.principal, section.beneficios, div.videos, div.video {
         width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
     }
 }
