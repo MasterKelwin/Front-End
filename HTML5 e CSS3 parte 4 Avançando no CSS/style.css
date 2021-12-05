@@ -327,6 +327,7 @@ footer {
 
     main {
         padding: 0 1em;
+        margin: 0 auto;
     }
 
     h1 {
@@ -340,6 +341,11 @@ footer {
     li.itensbeneficios {
         line-height: 1.5em;
         font-size: 0.65em;
+    }
+
+    ul.produtos li {
+        display: block;
+        margin: 0 0 10px 29px;
     }
 
 }
