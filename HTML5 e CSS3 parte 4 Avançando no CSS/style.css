@@ -325,6 +325,10 @@ footer {
         width: auto;
     }
 
+    main {
+        padding: 0 1em;
+    }
+
     h1 {
         text-align: center;
     }
@@ -332,4 +336,10 @@ footer {
     nav {
         position: static;
     }
+
+    li.itensbeneficios {
+        line-height: 1.5em;
+        font-size: 0.65em;
+    }
+
 }
